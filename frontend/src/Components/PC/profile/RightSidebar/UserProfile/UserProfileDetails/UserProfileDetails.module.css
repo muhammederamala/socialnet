@@ -1,0 +1,30 @@
+.label {
+  font-size: 0.7rem;
+}
+
+.content {
+  font-size: 0.8rem;
+  font-weight: 750;
+}
+
+.editIcon {
+  color: var(--primary-color);
+}
+
+.editIcon:hover {
+  cursor: pointer;
+}
+
+.updateProfileBtn {
+  color: white;
+  font-weight: 500;
+  background-color: var(--primary-color);
+  transition: transform 0.1s;
+}
+
+.updateProfileBtn:hover {
+  color: white;
+  font-weight: 500;
+  background-color: var(--primary-color);
+  transform: scale(1.02);
+}

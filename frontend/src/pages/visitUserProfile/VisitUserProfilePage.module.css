@@ -1,0 +1,52 @@
+.profileContainer {
+  margin-top: 2rem;
+  padding-top: 20px;
+}
+
+.profileImage {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  border-radius: 50%;
+  border: 3px solid #ddd;
+}
+
+.profileContainer h4 {
+  margin-bottom: 10px;
+}
+
+.profileContainer p {
+  font-size: 1rem;
+  color: #777;
+}
+
+.profileContainer strong {
+  display: block;
+  font-size: 1.2rem;
+}
+
+/* .profileContainer div {
+  text-align: center;
+} */
+
+.postImage {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.followButton {
+  color: var(--primary-color);
+  font-weight: 700;
+  border: 2px solid var(--primary-color);
+}
+
+.followButton:hover {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 700;
+  border: 2px solid var(--primary-color);
+}
+

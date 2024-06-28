@@ -1,0 +1,64 @@
+.container {
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  padding-left: 0.8rem;
+  padding-top: 0.8rem;
+}
+
+.profileImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.imageContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.icon {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.likedHeart {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  color: red;
+}
+
+.likedHeart:hover {
+  cursor: pointer;
+}

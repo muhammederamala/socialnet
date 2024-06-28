@@ -1,0 +1,24 @@
+.profileImage {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* UserProfileImageUpload.module.css */
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.plusIcon {
+  position: absolute;
+  bottom: 10px; /* Adjust position as needed */
+  right: 10px;
+  background-color: white; /* Optional, adds a background color */
+  border-radius: 50%; /* Optional, makes the icon circular */
+  padding: 5px; /* Optional, adds some padding around the icon */
+  font-size: 24px; /* Adjust size as needed */
+  color: #000; /* Adjust color as needed */
+  cursor: pointer;
+}

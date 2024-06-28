@@ -1,0 +1,38 @@
+.commentsList {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+.commentItem {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.commentItem strong {
+  margin-right: 0.5rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.commentForm {
+  display: flex;
+  width: 100%;
+}
+
+.commentInput {
+  flex: 1;
+  margin-right: 0.5rem;
+}
+
+.submitButton {
+  display: flex;
+  align-items: center;
+}

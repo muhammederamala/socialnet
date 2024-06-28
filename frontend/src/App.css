@@ -1,0 +1,7 @@
+.primaryColor {
+  background-color: green;
+}
+
+:root {
+  --primary-color: #701d44;
+}

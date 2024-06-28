@@ -1,0 +1,38 @@
+.cancelButton {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  border: 0.2rem solid var(--primary-color);
+  border-radius: 0.8rem;
+  background-color: white;
+  font-weight: 700;
+  transition: transform 0.3s;
+}
+
+.cancelButton:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  border: 0.2rem solid var(--primary-color);
+  border-radius: 0.8rem;
+  background-color: white;
+  font-weight: 700;
+  transform: scale(1.03);
+}
+
+.submitButton {
+  border-color: var(--primary-color);
+  border: 0.2rem solid var(--primary-color);
+  border-radius: 0.8rem;
+  color: white;
+  background-color: var(--primary-color);
+  font-weight: 700;
+  transition: transform 0.3s;
+}
+
+.submitButton:hover {
+  background-color: var(--primary-color);
+  border: 0.2rem solid var(--primary-color);
+  border-radius: 0.8rem;
+  color: white;
+  font-weight: 700;
+  transform: scale(1.03);
+}
